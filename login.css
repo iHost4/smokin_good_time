@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#loginContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.loginImageContainer{
+    height: 100vh;
+    object-fit: cover;
+}
+.loginImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+} 
+#loginForm{
+    border-style: inset double inset double;
+    border-radius: 15px;
+    background-color: rgba(0, 170, 248, 0.185);
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    align-content: center;
+}
