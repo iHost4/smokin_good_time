@@ -62,6 +62,19 @@
         .logo-container:hover .dropdown-menu {
             display: block;
         }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        .booking-button {
+            padding: 10px 15px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 20px;
+        }
         .login-index {
             padding: 10px 15px;
             background: #e67e22;
@@ -107,7 +120,10 @@
                 <a href="employ.php">Opportunities</a>
             </div>
         </div>
-        <a href="ualog.php" class="login-index">Login</a>
+        <div class="button-container">
+            <a href="bookatable.php" class="booking-button">Reserve Table</a>
+            <a href="ualog.php" class="login-index">Login</a>
+        </div>
     </header>
     <section class="hero">
         <h1>Smokin' Good Time</h1>
