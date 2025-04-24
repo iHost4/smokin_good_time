@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smokin' Good Time</title>
+    <title>About Us - Smokin' Good Time</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,6 +12,19 @@
             text-align: center;
             background-color: #f0e68c;
         }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-wrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
         .header {
             display: flex;
             justify-content: space-between;
@@ -66,51 +79,57 @@
             display: flex;
             align-items: center;
         }
-        .booking-button {
+        .booking-button, .login-index {
             padding: 10px 15px;
-            background: #3498db;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             font-size: 16px;
+        }
+        .booking-button {
+            background: #3498db;
             margin-right: 20px;
         }
         .login-index {
-            padding: 10px 15px;
             background: #e67e22;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px; 
             margin-right: 40px;
         }
-        .hero {
-            background: url('images/pexels-pixabay-533325.jpg') no-repeat center center/cover;
+        .about-section {
+            padding: 120px 40px 60px;
+            background: #fff8dc;
+        }
+        .about-section h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .about-section p {
+            font-size: 18px;
+            color: #555;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        .bbq-photo {
+            width: 60%;
+            max-width: 600px;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .content {
+            flex: 1; 
+        }
+        .footer {
+            background-color: #222;
             color: white;
-            padding: 100px 20px;
-            margin-top: 80px;
+            padding: 30px 20px;
+            text-align: center;
         }
-        .menu {
-            padding: 50px;
-            background: #E6E8E6;
-        }
-        .contact {
-            padding: 50px;
-            background: #222;
-            color: white;
-        }
-        .button {
-            padding: 10px 20px;
-            background: #e67e22;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .social-media-index {
-            display: flex;
+        .social-media-footer {
+            display: flex; 
             justify-content: center;
             gap: 20px;
-            margin-top: 20px;
+            margin-top: 15px;
         }
         .social-icon {
             width: 40px;
@@ -141,44 +160,38 @@
             <a href="ualog.php" class="login-index">Login</a>
         </div>
     </header>
-    <main class="content">
-    <section class="hero">
-        <h1>Smokin' Good Time</h1>
-        <p>filler</p>
-        <a href="menu.php" class="button">View Menu</a>
+
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>At <strong>Smokin' Good Time</strong>, we're all about bringing people together over smoky, slow-cooked barbecue that's been perfected over generations. From our humble beginnings as a family-owned food truck to becoming a local favorite dine-in spot, we've always kept one thing at the heart of our mission—<strong>authentic flavor with a side of hospitality</strong>.</p>
+        
+        <p>Whether you’re craving our signature Pulled Pork Sandwich™ or just looking for a place to unwind with friends, our team is here to make your visit memorable. We source the freshest ingredients, smoke our meats low and slow, and treat every customer like family.</p>
+        
+        <p>Come hungry. Leave happy. That's the Smokin' Good Time way.</p>
+
+        <img src="images/sgtpulledpork.jpg" alt="What we do best." class="bbq-photo">
     </section>
-    
-    <section id="menu" class="menu">
-        <h2>Try our World-Famous Pulled Pork Sandwich&#8482;</h2>
-        <p>Savor the perfect blend of smoky, slow-cooked goodness and tangy barbecue sauce, all nestled in a toasted brioche bun. One bite, and you'll see why it's a customer favorite!</p>
-        <a href="bookatable.php">
-            <button style="background-color: #e67e22; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
-                Try it now!
-            </button>
-        </a>
-    </section>
-    </main>
 
     <footer class="footer">
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Email: email@domain.com</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>123 W. Sesame St, Timbuktu, WV 11223</p>
-        <div class="social-media-index">
-            <a href="https://www.facebook.com" target="_blank">
-                <img src="facebook-icon.jpg" alt="Facebook" class="social-icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="" alt="Twitter" class="social-icon">
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-                <img src="" alt="Instagram" class="social-icon">
-            </a>
-        </div>
-        <p>&copy; 2025 Smokin' Good Time. All rights reserved.</p>
-    </section>
-    </footer>
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <p>Email: email@domain.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>123 W. Sesame St, Timbuktu, WV 11223</p>
+            </div>
+            <div class="social-media-footer">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="" alt="Twitter" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+            <p>&copy; 2025 Smokin' Good Time. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
