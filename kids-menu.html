@@ -6,138 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap eCommerce Page Template</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	  <link rel="stylesheet" href="css/zach.css">
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
     
+    
 <hr>
-    <h2 class="text-center">OUR MENU</h2>
+    <h2 class="text-center">KIDS MENU&nbsp;</h2>
     <hr>
     <div class="container">
       <div class="row text-center">
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./appetizers/appetizers.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Appetizers.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/KidsMac&Cheese.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Appetizers&nbsp;</h5>
-              <p class="card-text">Start your BBQ journey off right with our crave-worthy starters. These Southern classics are the perfect way to whet your appetite and bring the heat before the main event.</p>
-				
-				
-              
+              <h5 class="card-title">Kids-Mac &amp; Cheese&nbsp;</h5>
+              <p class="card-text">A kid-sized portion of our creamy mac with no frills—just cheesy goodness.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 1, name: 'Kids-Mac & Cheese', desc: 'A kid-sized portion of our creamy mac with no frills—just cheesy goodness.', price: 9.99)">Add to Cart</button>
             </div>
           </div>
-			
-				</a>
-			
         </div>
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./entree/entree.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Entrees.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/KidsPulledPorkSandwich.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Entrees&nbsp;</h5>
-              <p class="card-text">Smoked low and slow, our entrées are packed with bold BBQ flavor. From tender brisket to saucy ribs and smoky salmon, these main courses are the real stars of the show.</p>
-</div>
+              <h5 class="card-title">Kids-Pulled Pork&nbsp; &nbsp;</h5>
+				<br>
+              <p class="card-text">Tender pulled pork served with BBQ sauce on a small bun or plate.</p>
+				<br>
+              <button class="btn btn-primary" onclick="addToCart(ID: 2, name: 'Kids-Pulled Pork', desc: 'Tender pulled pork served with BBQ sauce on a small bun or plate.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./sides/sides.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Sides.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/KidsChickenSandwich.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Sides&nbsp;</h5>
-              <p class="card-text">No BBQ plate is complete without the fixin’s. Our homestyle sides are full of flavor-each one crafted to complement our pit-smoked meats perfectly.</p>
-</div>
+              <h5 class="card-title">Kids-Chicken Sandwich&nbsp;</h5>
+              <p class="card-text">Smoked chicken on a soft bun, perfect for little hands.</p>
+				<br>
+              <button class="btn btn-primary" onclick="addToCart(ID: 3, name: 'Kids-Chicken Sandwich', desc: 'Smoked chicken on a soft bun, perfect for little hands.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-       
-		  </a>
-		  
-		  
-		  </div>
+        </div>
       </div>
       <div class="row text-center mt-4">
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./kids-menu/kids-menu.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Kids-Menu.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/KidsTurkeySandwich.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Kids Menu&nbsp;</h5>
-              <p class="card-text">Perfect tasting BBQ isn’t just for the grown-ups! Our kids' menu is packed with mini portions of our smokin’ favorites—perfect for little hands and big appetites.</p>
-</div>
+              <h5 class="card-title">Kids-Turkey Sandwich&nbsp;</h5>
+              <p class="card-text">Sliced smoked turkey breast, simple and savory.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 4, name: 'Kids-Turkey Sandwich', desc: 'Sliced smoked turkey breast, simple and savory.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./desserts/desserts.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Desserts.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/BabyBabyBackRibs.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Desserts&nbsp;</h5>
-              <p class="card-text">Save room for something sweet! From rich chocolate lava cake to our famous banana pudding, these Southern treats are the perfect way to finish off your BBQ feast.</p>
-</div>
+              <h5 class="card-title">Baby-Baby Back Ribs&nbsp;</h5>
+              <p class="card-text">A smaller rack of our famous ribs, just right for the little ones.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 5, name: 'Baby-Baby Back Ribs', desc: 'A smaller rack of our famous ribs, just right for the little ones.' price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			
-			<a href="./drinks/drinks.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Drinks.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Kids-Menu/KidsSmokedSalmon.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Drinks&nbsp;</h5>
-              <p class="card-text">Wash it all down with a glass of Southern hospitality. Whether you’re sipping sweet tea or cracking open a cold root beer, we’ve got the perfect pour to go with your meal.</p>
-</div> 
+              <h5 class="card-title">Kids-Smoked Salmon&nbsp;</h5>
+              <p class="card-text">Lightly smoked salmon served kid-friendly with a mild glaze.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 6, name: 'Kids-Smoked Salmon' desc: 'Lightly smoked salmon served kid-friendly with a mild glaze.' price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			</a>
-
         </div>
       </div>
     </div>
     <hr>
-	  
-	  <div class="text-center">
-	  <button class="zachbtn"><h2>Send to Resturant</h2></button>
-	  </div>
-	  
-	  
     <hr>
     <div class="container text-white bg-dark p-4">
       <div class="row">
@@ -200,5 +146,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap-4.4.1.js"></script>
+  	<script src="../js/cart.js"></script>
   </body>
 </html>

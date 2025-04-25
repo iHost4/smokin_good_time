@@ -6,138 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap eCommerce Page Template</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	  <link rel="stylesheet" href="css/zach.css">
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
     
+    
 <hr>
-    <h2 class="text-center">OUR MENU</h2>
+    <h2 class="text-center">DESSERTS&nbsp;</h2>
     <hr>
     <div class="container">
       <div class="row text-center">
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./appetizers/appetizers.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Appetizers.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/BananaPudding.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Appetizers&nbsp;</h5>
-              <p class="card-text">Start your BBQ journey off right with our crave-worthy starters. These Southern classics are the perfect way to whet your appetite and bring the heat before the main event.</p>
-				
-				
-              
+              <h5 class="card-title">Banana Pudding&nbsp;&nbsp;</h5>
+              <p class="card-text">Creamy vanilla pudding layered with bananas and wafers, topped with whipped cream.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 1, name: 'Banana Pudding', desc: 'Creamy vanilla pudding layered with bananas and wafers, topped with whipped cream.', 9.99)">Add to Cart</button>
             </div>
           </div>
-			
-				</a>
-			
         </div>
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./entree/entree.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Entrees.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/PecanPie.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Entrees&nbsp;</h5>
-              <p class="card-text">Smoked low and slow, our entrées are packed with bold BBQ flavor. From tender brisket to saucy ribs and smoky salmon, these main courses are the real stars of the show.</p>
-</div>
+              <h5 class="card-title">Pecan Pie&nbsp; &nbsp;</h5>
+              <p class="card-text">A slice of Southern tradition with rich, gooey filling and roasted pecans.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 2, name: 'Pecan Pie', desc: 'A slice of Southern tradition with rich, gooey filling and roasted pecans.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./sides/sides.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Sides.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/PeachCobbler.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Sides&nbsp;</h5>
-              <p class="card-text">No BBQ plate is complete without the fixin’s. Our homestyle sides are full of flavor-each one crafted to complement our pit-smoked meats perfectly.</p>
-</div>
+              <h5 class="card-title">Peach Cobbler&nbsp;</h5>
+              <p class="card-text">Warm spiced peaches baked under a buttery crust and served with love.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 3, name: 'Peach Cobbler', desc: 'Warm spiced peaches baked under a buttery crust and served with love.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-       
-		  </a>
-		  
-		  
-		  </div>
+        </div>
       </div>
       <div class="row text-center mt-4">
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./kids-menu/kids-menu.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Kids-Menu.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/FunnelCake.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Kids Menu&nbsp;</h5>
-              <p class="card-text">Perfect tasting BBQ isn’t just for the grown-ups! Our kids' menu is packed with mini portions of our smokin’ favorites—perfect for little hands and big appetites.</p>
-</div>
+              <h5 class="card-title">Funnel Cake&nbsp;</h5>
+				<br>
+              <p class="card-text">Fried dough dusted with powdered sugar. A carnival treat in BBQ form.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 4, name: 'Funnel Cake', desc: 'Fried dough dusted with powdered sugar. A carnival treat in BBQ form.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			<a href="./desserts/desserts.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Desserts.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/ChocolateLaveCake.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Desserts&nbsp;</h5>
-              <p class="card-text">Save room for something sweet! From rich chocolate lava cake to our famous banana pudding, these Southern treats are the perfect way to finish off your BBQ feast.</p>
-</div>
+              <h5 class="card-title">Chocolate Lava Cake&nbsp;</h5>
+              <p class="card-text">Decadent chocolate cake with a molten center, served warm.</p>
+				<br>
+              <button class="btn btn-primary" onclick="addToCart(ID: 5, name: 'Chocolate Lava Cake', desc: 'Decadent chocolate cake with a molten center, served warm.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			
-			</a>
-			
         </div>
-		  
-		  
-		  
-		  
         <div class="col-md-4 pb-1 pb-md-0">
-			
-			
-			<a href="./drinks/drinks.html">
-			
           <div class="card">
-            <img class="card-img-top" src="images/ZachImages/Drinks.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../images/ZachImages/Desserts/IceCream.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Drinks&nbsp;</h5>
-              <p class="card-text">Wash it all down with a glass of Southern hospitality. Whether you’re sipping sweet tea or cracking open a cold root beer, we’ve got the perfect pour to go with your meal.</p>
-</div> 
+              <h5 class="card-title">Ice Cream&nbsp;</h5>
+				<br>
+              <p class="card-text">Classic scoops of vanilla or chocolate—perfect with any dessert or all by itself.</p>
+              <button class="btn btn-primary" onclick="addToCart(ID: 6, name: 'Ice Cream', desc: 'Classic scoops of vanilla or chocolate—perfect with any dessert or all by itself.', price: 9.99)">Add to Cart</button>
+            </div>
           </div>
-			</a>
-
         </div>
       </div>
     </div>
     <hr>
-	  
-	  <div class="text-center">
-	  <button class="zachbtn"><h2>Send to Resturant</h2></button>
-	  </div>
-	  
-	  
+    
     <hr>
     <div class="container text-white bg-dark p-4">
       <div class="row">
@@ -200,5 +147,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap-4.4.1.js"></script>
+	<script src="../js/cart.js"></script>
   </body>
 </html>
