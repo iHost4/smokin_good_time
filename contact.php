@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f0e68c;
+            background-color: #f8f1e4;
         }
         html, body {
             margin: 0;
@@ -202,7 +202,7 @@
                 <div class="dropdown-menu">
                     <a href="index.php">Home</a>
                     <a href="about.php">About Us</a>
-                    <a href="menu.php">Menu</a>
+                    <a href="index.php">Menu</a>
                     <a href="contact.php">Contact Us</a>
                     <a href="employ.php">Opportunities</a>
                 </div>

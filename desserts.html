@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smokin' Good Time - Desserts</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f8f1e4;
+      }
+
+      /* Header Styles */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background: #f0e68c;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+
+      .logo-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .logo {
+        height: 80px;
+      }
+
+      .chevron {
+        margin-left: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        min-width: 150px;
+        text-align: left;
+      }
+
+      .dropdown-menu a {
+        display: block;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+      }
+
+      .dropdown-menu a:hover {
+        background: #e67e22;
+        color: white;
+      }
+
+      .logo-container:hover .dropdown-menu {
+        display: block;
+      }
+
+      .button-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .booking-button {
+        padding: 10px 15px;
+        background: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-right: 20px;
+      }
+
+      .login-index {
+        padding: 10px 15px;
+        background: #e67e22;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-right: 40px;
+      }
+
+      /* Content Styles */
+      .content {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 380px; /* Ensure all cards have the same minimum height */
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-wrapper {
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 380px; /* Ensure cards have the same minimum height */
+}
+
+
+      /* Footer Styles */
+      .footer {
+        padding: 50px;
+        background: #222;
+        color: white;
+      }
+
+      .social-media-index {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .social-icon {
+        width: 40px;
+        height: 40px;
+        transition: transform 0.3s;
+      }
+
+      .social-icon:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-container">
+        <img src="images/Smokin-Good-Time-Logo.png" alt="Smokin' Good Time Logo" class="logo">
+        <span class="chevron">▼</span>
+        <div class="dropdown-menu">
+          <a href="index.php">Home</a>
+          <a href="about.php">About Us</a>
+          <a href="menu.php">Menu</a>
+          <a href="contact.php">Contact Us</a>
+          <a href="employ.php">Opportunities</a>
+        </div>
+      </div>
+      <div class="button-container">
+        <a href="bookatable.php" class="booking-button">Reserve Table</a>
+        <a href="ualog.php" class="login-index">Login</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+      <h2 class="text-center mt-4"><strong>DESSERTS</strong></h2>
+      <div class="card-container">
+        <!-- Dessert Cards -->
+        <div class="card-wrapper">
+          <div class="card">
+            <img class="card-img-top" src="images/ZachImages/Desserts/BananaPudding.jpg" alt="Banana Pudding">
+            <div class="card-body">
+              <h5 class="card-title">Banana Pudding</h5>
+              <p class="card-text">Creamy vanilla pudding layered with bananas and wafers, topped with whipped cream.</p>
+              <button class="btn btn-primary" onclick="addToCart(1, 'Banana Pudding', 'Creamy vanilla pudding layered with bananas and wafers, topped with whipped cream.', 9.99)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="card">
+            <img class="card-img-top" src="images/ZachImages/Desserts/PecanPie.jpg" alt="Pecan Pie">
+            <div class="card-body">
+              <h5 class="card-title">Pecan Pie</h5>
+              <p class="card-text">A slice of Southern tradition with rich, gooey filling and roasted pecans.</p>
+              <button class="btn btn-primary" onclick="addToCart(2, 'Pecan Pie', 'A slice of Southern tradition with rich, gooey filling and roasted pecans.', 9.99)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="card">
+            <img class="card-img-top" src="images/ZachImages/Desserts/PeachCobbler.jpg" alt="Peach Cobbler">
+            <div class="card-body">
+              <h5 class="card-title">Peach Cobbler</h5>
+              <p class="card-text">Warm spiced peaches baked under a buttery crust and served with love.</p>
+              <button class="btn btn-primary" onclick="addToCart(3, 'Peach Cobbler', 'Warm spiced peaches baked under a buttery crust and served with love.', 9.99)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h2>Contact Us</h2>
+      <p>Email: email@domain.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>123 W. Sesame St, Timbuktu, WV 11223</p>
+      <div class="social-media-index">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook-icon.jpg" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter-icon.jpg" alt="Twitter" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/instagram-icon.jpg" alt="Instagram" class="social-icon">
+        </a>
+      </div>
+      <p>&copy; 2025 Smokin' Good Time. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function addToCart(id, name, desc, price) {
+        alert(`Added to cart: ${name} - $${price.toFixed(2)}`);
+      }
+    </script>
+  </body>
+</html>
+``

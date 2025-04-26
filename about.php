@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f0e68c;
+            background-color: #f8f1e4;
         }
 
         html, body {
@@ -96,7 +96,7 @@
         }
         .about-section {
             padding: 120px 40px 60px;
-            background: #fff8dc;
+            background: #f8f1e4;
         }
         .about-section h1 {
             font-size: 36px;
@@ -150,7 +150,7 @@
             <div class="dropdown-menu">
                 <a href="index.php">Home</a>
                 <a href="about.php">About Us</a>
-                <a href="menu.php">Menu</a>
+                <a href="Menu/index.php">Menu</a>
                 <a href="contact.php">Contact Us</a>
                 <a href="employ.php">Opportunities</a>
             </div>

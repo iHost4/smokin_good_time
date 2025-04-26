@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f0e68c;
+            background-color: #f8f1e4;
         }
         .header {
             display: flex;
@@ -144,7 +144,6 @@
     <main class="content">
     <section class="hero">
         <h1>Smokin' Good Time</h1>
-        <p>filler</p>
         <a href="menu.php" class="button">View Menu</a>
     </section>
     
@@ -167,13 +166,13 @@
         <p>123 W. Sesame St, Timbuktu, WV 11223</p>
         <div class="social-media-index">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="facebook-icon.jpg" alt="Facebook" class="social-icon">
+                <img src="images/facebook-icon.jpg" alt="Facebook" class="social-icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="" alt="Twitter" class="social-icon">
+                <img src="images/twitter-icon.jpg" alt="Twitter" class="social-icon">
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="" alt="Instagram" class="social-icon">
+                <img src="images/instagram-icon.jpg" alt="Instagram" class="social-icon">
             </a>
         </div>
         <p>&copy; 2025 Smokin' Good Time. All rights reserved.</p>

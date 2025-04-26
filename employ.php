@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f0e68c;
+            background-color: #f8f1e4;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
@@ -85,6 +85,7 @@
             margin-right: 40px;
         }
         .jobs-section {
+            background: #f8f1e4;
             flex: 1;
             margin-top: 120px;
             padding: 60px 20px;
@@ -151,7 +152,7 @@
             <div class="dropdown-menu">
                 <a href="index.php">Home</a>
                 <a href="about.php">About Us</a>
-                <a href="menu.php">Menu</a>
+                <a href="index.php">Menu</a>
                 <a href="contact.php">Contact Us</a>
                 <a href="employ.php">Opportunities</a>
             </div>
