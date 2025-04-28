@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.reservation-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 15px;
+    align-items: center;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.hidden {
+    display: none;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+button {
+    background: #e67e22;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+#back_signout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    padding-top: 25px;
+}
