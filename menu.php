@@ -280,21 +280,21 @@
     <p>123 W. Sesame St, Timbuktu, WV 11223</p>
     <div class="social-media-index">
       <a href="https://www.facebook.com" target="_blank">
-        <img src="../images/facebook-icon.jpg" alt="Facebook" class="social-icon">
+        <img src="/images/facebook-icon.jpg" alt="Facebook" class="social-icon">
       </a>
       <a href="https://twitter.com" target="_blank">
-        <img src="../images/twitter-icon.jpg" alt="Twitter" class="social-icon">
+        <img src="/images/twitter-icon.jpg" alt="Twitter" class="social-icon">
       </a>
       <a href="https://www.instagram.com" target="_blank">
-        <img src="../images/instagram-icon.jpg" alt="Instagram" class="social-icon">
+        <img src="/images/instagram-icon.jpg" alt="Instagram" class="social-icon">
       </a>
     </div>
     <p>&copy; 2025 Smokin' Good Time. All rights reserved.</p>
   </footer>
 
   <!-- JS scripts -->
-  <script src="../js/jquery-3.4.1.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap-4.4.1.js"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap-4.4.1.js"></script>
 </body>
 </html>
